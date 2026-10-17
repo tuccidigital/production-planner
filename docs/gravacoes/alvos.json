@@ -1,0 +1,12 @@
+{
+  "ordem": "OP-1059",
+  "slotStart": 1793115000000,
+  "ruim": {
+    "maquina": "IJ-17",
+    "start": 1793115000000
+  },
+  "bom": {
+    "maquina": "IJ-09",
+    "start": 1793134800000
+  }
+}

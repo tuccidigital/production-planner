@@ -1,0 +1,95 @@
+{
+  "idioma": "en-US",
+  "projeto": "P07 · Planejador de Produção",
+  "ficticio": true,
+  "gancho": "Moving one urgent order took an hour of spreadsheet checks.",
+  "problema": {
+    "personagem": "Caio Ferraz, production manager",
+    "texto": "38 molding machines, molds, maintenance and due dates checked by hand.",
+    "icones": [
+      "Table",
+      "Wrench",
+      "Clock",
+      "Warning"
+    ]
+  },
+  "processo": [
+    {
+      "rotulo": "REACT · CODE APP",
+      "titulo": "Planner drags the order"
+    },
+    {
+      "rotulo": "RULES",
+      "titulo": "Mold, maintenance, due date checked"
+    },
+    {
+      "rotulo": "DATAVERSE",
+      "titulo": "Plan saved with locks"
+    },
+    {
+      "rotulo": "RESULT",
+      "titulo": "Changes in seconds, no errors"
+    }
+  ],
+  "telas": [
+    {
+      "arquivo": "gravacoes/visao-geral.mp4",
+      "moldura": "desktop",
+      "inicio": 0.5,
+      "fim": 6.5,
+      "destaques": [
+        {
+          "t": 1.0,
+          "x": 0.27,
+          "y": 0.18,
+          "texto": "Load and due dates on one screen"
+        }
+      ]
+    },
+    {
+      "arquivo": "gravacoes/arrastar.mp4",
+      "moldura": "desktop",
+      "inicio": 1.5,
+      "fim": 10.0,
+      "destaques": [
+        {
+          "t": 2.4,
+          "x": 0.24,
+          "y": 0.69,
+          "texto": "Rejected: mold needs other tonnage"
+        },
+        {
+          "t": 6.0,
+          "x": 0.42,
+          "y": 0.39,
+          "texto": "Fits: green target"
+        }
+      ]
+    },
+    {
+      "arquivo": "gravacoes/reagendar.mp4",
+      "moldura": "desktop",
+      "inicio": 0.5,
+      "fim": 6.7,
+      "destaques": [
+        {
+          "t": 2.6,
+          "x": 0.82,
+          "y": 0.66,
+          "texto": "Before and after, then save"
+        }
+      ]
+    }
+  ],
+  "resultado": [
+    "Orders at risk down from 22 to 15",
+    "15 unassigned orders scheduled",
+    "Every rejection explained on screen"
+  ],
+  "chamada": "Book a discovery call at tuccidigital.com",
+  "audio": {
+    "trilha": null,
+    "locucao": null
+  },
+  "legendas": "auto"
+}

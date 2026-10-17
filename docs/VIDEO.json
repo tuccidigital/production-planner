@@ -1,0 +1,95 @@
+{
+  "idioma": "pt-BR",
+  "projeto": "P07 · Planejador de Produção",
+  "ficticio": true,
+  "gancho": "Remanejar uma ordem urgente levava uma hora de conferência na planilha.",
+  "problema": {
+    "personagem": "Caio Ferraz, gerente de Produção",
+    "texto": "38 injetoras, molde, manutenção e prazo conferidos à mão.",
+    "icones": [
+      "Table",
+      "Wrench",
+      "Clock",
+      "Warning"
+    ]
+  },
+  "processo": [
+    {
+      "rotulo": "REACT · CODE APP",
+      "titulo": "PCP arrasta a ordem no Gantt"
+    },
+    {
+      "rotulo": "REGRAS",
+      "titulo": "Molde, manutenção e prazo validados"
+    },
+    {
+      "rotulo": "DATAVERSE",
+      "titulo": "Plano salvo com as travas"
+    },
+    {
+      "rotulo": "RESULTADO",
+      "titulo": "Troca em segundos, sem erro"
+    }
+  ],
+  "telas": [
+    {
+      "arquivo": "gravacoes/visao-geral.mp4",
+      "moldura": "desktop",
+      "inicio": 0.5,
+      "fim": 6.5,
+      "destaques": [
+        {
+          "t": 1.0,
+          "x": 0.27,
+          "y": 0.18,
+          "texto": "Ocupação e prazo na mesma tela"
+        }
+      ]
+    },
+    {
+      "arquivo": "gravacoes/arrastar.mp4",
+      "moldura": "desktop",
+      "inicio": 1.5,
+      "fim": 10.0,
+      "destaques": [
+        {
+          "t": 2.4,
+          "x": 0.24,
+          "y": 0.69,
+          "texto": "Não cabe: molde exige outra força"
+        },
+        {
+          "t": 6.0,
+          "x": 0.42,
+          "y": 0.39,
+          "texto": "Cabe: destino verde"
+        }
+      ]
+    },
+    {
+      "arquivo": "gravacoes/reagendar.mp4",
+      "moldura": "desktop",
+      "inicio": 0.5,
+      "fim": 6.7,
+      "destaques": [
+        {
+          "t": 2.6,
+          "x": 0.82,
+          "y": 0.66,
+          "texto": "Antes e depois, antes de gravar"
+        }
+      ]
+    }
+  ],
+  "resultado": [
+    "Ordens em risco de 22 para 15",
+    "15 ordens sem injetora, alocadas",
+    "Cada recusa com o motivo na tela"
+  ],
+  "chamada": "Agende um diagnóstico em tuccidigital.com",
+  "audio": {
+    "trilha": null,
+    "locucao": null
+  },
+  "legendas": "auto"
+}

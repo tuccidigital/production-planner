@@ -1,0 +1,53 @@
+import { webLightTheme, type Theme } from '@fluentui/react-components';
+
+/** Tokens do design system Tucci (Grafite & Musgo). */
+export const tucci = {
+  musgo: '#5B6B35',
+  musgoHover: '#4E5C2D',
+  musgoPressed: '#434F27',
+  musgoClaro: '#9DB067',
+  grafite: '#17191C',
+  cobalt: '#2C47A6',
+  paper: '#F2F3EF',
+  surface: '#FFFFFF',
+  surfaceSunk: '#E5E7E1',
+  ink: '#17191C',
+  inkMuted: '#51565C',
+  line: '#D2D5CD',
+  lineStrong: '#7A8077',
+  success: '#1C7346',
+  warning: '#8F5B00',
+  danger: '#B0281F',
+} as const;
+
+/** Tema Fluent UI v9 com a paleta e as fontes da Tucci. */
+export const tucciTheme: Theme = {
+  ...webLightTheme,
+  fontFamilyBase: '"Figtree", "Segoe UI", system-ui, sans-serif',
+  fontFamilyMonospace: '"JetBrains Mono", Consolas, monospace',
+  colorBrandBackground: tucci.musgo,
+  colorBrandBackgroundHover: tucci.musgoHover,
+  colorBrandBackgroundPressed: tucci.musgoPressed,
+  colorBrandBackgroundSelected: tucci.musgoHover,
+  colorCompoundBrandBackground: tucci.musgo,
+  colorCompoundBrandBackgroundHover: tucci.musgoHover,
+  colorCompoundBrandBackgroundPressed: tucci.musgoPressed,
+  colorCompoundBrandStroke: tucci.musgo,
+  colorCompoundBrandStrokeHover: tucci.musgoHover,
+  colorBrandForeground1: tucci.musgo,
+  colorBrandForeground2: tucci.musgoHover,
+  colorBrandForegroundLink: tucci.cobalt,
+  colorBrandForegroundLinkHover: tucci.cobalt,
+  colorBrandStroke1: tucci.musgo,
+  colorNeutralForeground1: tucci.ink,
+  colorNeutralForeground2: tucci.inkMuted,
+  colorNeutralForeground3: tucci.inkMuted,
+  colorNeutralBackground1: tucci.surface,
+  colorNeutralBackground2: tucci.paper,
+  colorNeutralBackground3: tucci.surfaceSunk,
+  colorNeutralStroke1: tucci.lineStrong,
+  colorNeutralStroke2: tucci.line,
+  colorStrokeFocus2: tucci.cobalt,
+  borderRadiusMedium: '4px',
+  borderRadiusLarge: '10px',
+};
