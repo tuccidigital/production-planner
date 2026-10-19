@@ -4,7 +4,7 @@
   "ficticio": true,
   "gancho": "Moving one urgent order took an hour of spreadsheet checks.",
   "problema": {
-    "personagem": "Caio Ferraz, production manager",
+    "personagem": "Production planning at Lumina Componentes (fictional company)",
     "texto": "38 molding machines, molds, maintenance and due dates checked by hand.",
     "icones": [
       "Table",
@@ -40,9 +40,9 @@
       "destaques": [
         {
           "t": 1.0,
-          "x": 0.27,
-          "y": 0.18,
-          "texto": "Load and due dates on one screen"
+          "x": 0.278,
+          "y": 0.184,
+          "texto": "22 orders finish after their due date"
         }
       ]
     },
@@ -54,14 +54,14 @@
       "destaques": [
         {
           "t": 2.4,
-          "x": 0.24,
-          "y": 0.69,
+          "x": 0.5,
+          "y": 0.693,
           "texto": "Rejected: mold needs other tonnage"
         },
         {
-          "t": 6.0,
-          "x": 0.42,
-          "y": 0.39,
+          "t": 6.4,
+          "x": 0.41,
+          "y": 0.388,
           "texto": "Fits: green target"
         }
       ]
@@ -74,8 +74,8 @@
       "destaques": [
         {
           "t": 2.6,
-          "x": 0.82,
-          "y": 0.66,
+          "x": 0.6,
+          "y": 0.387,
           "texto": "Before and after, then save"
         }
       ]

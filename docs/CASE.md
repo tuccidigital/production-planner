@@ -9,7 +9,7 @@ video: /cases/planejador-producao.mp4
 
 ## Problema
 
-O PCP da Lumina planejava 38 injetoras numa planilha colorida. Para remanejar uma ordem urgente, Caio Ferraz, gerente de Produção, conferia à mão se o molde cabia na máquina, se havia manutenção marcada e se a entrega ainda fechava. Uma troca levava uma hora, e erro de planilha só aparecia no chão de fábrica.
+O PCP da Lumina planejava 38 injetoras numa planilha colorida. Para remanejar uma ordem urgente, o planejador conferia à mão se o molde cabia na máquina, se havia manutenção marcada e se a entrega ainda fechava. Uma troca levava uma hora, e erro de planilha só aparecia no chão de fábrica.
 
 ## O que construímos
 

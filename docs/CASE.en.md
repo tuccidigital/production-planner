@@ -9,7 +9,7 @@ video: /cases/planejador-producao-en.mp4
 
 ## Problem
 
-Lumina's planning team scheduled 38 injection molding machines in a color-coded spreadsheet. To move an urgent order, Caio Ferraz, the production manager, checked by hand whether the mold fit the machine, whether maintenance was booked and whether the due date still held. One change took an hour, and spreadsheet mistakes only showed up on the shop floor.
+Lumina's planning team scheduled 38 injection molding machines in a color-coded spreadsheet. To move an urgent order, the planner checked by hand whether the mold fit the machine, whether maintenance was booked and whether the due date still held. One change took an hour, and spreadsheet mistakes only showed up on the shop floor.
 
 ## What we built
 

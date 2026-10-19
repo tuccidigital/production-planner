@@ -4,7 +4,7 @@
   "ficticio": true,
   "gancho": "Remanejar uma ordem urgente levava uma hora de conferência na planilha.",
   "problema": {
-    "personagem": "Caio Ferraz, gerente de Produção",
+    "personagem": "Planejamento da Lumina Componentes (empresa fictícia)",
     "texto": "38 injetoras, molde, manutenção e prazo conferidos à mão.",
     "icones": [
       "Table",
@@ -40,9 +40,9 @@
       "destaques": [
         {
           "t": 1.0,
-          "x": 0.27,
-          "y": 0.18,
-          "texto": "Ocupação e prazo na mesma tela"
+          "x": 0.278,
+          "y": 0.184,
+          "texto": "22 ordens terminam depois da entrega"
         }
       ]
     },
@@ -54,14 +54,14 @@
       "destaques": [
         {
           "t": 2.4,
-          "x": 0.24,
-          "y": 0.69,
+          "x": 0.5,
+          "y": 0.693,
           "texto": "Não cabe: molde exige outra força"
         },
         {
-          "t": 6.0,
-          "x": 0.42,
-          "y": 0.39,
+          "t": 6.4,
+          "x": 0.41,
+          "y": 0.388,
           "texto": "Cabe: destino verde"
         }
       ]
@@ -74,8 +74,8 @@
       "destaques": [
         {
           "t": 2.6,
-          "x": 0.82,
-          "y": 0.66,
+          "x": 0.6,
+          "y": 0.387,
           "texto": "Antes e depois, antes de gravar"
         }
       ]
